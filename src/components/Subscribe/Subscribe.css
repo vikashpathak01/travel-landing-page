@@ -1,0 +1,57 @@
+.subscribe {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 15px;
+
+}
+
+.subscribe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(231, 237, 243);
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.subscribe-container h3{
+   font-size: 30px;
+
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+}
+
+.input-container input{
+  width: 100%;
+  max-width: 421px;
+  padding: 15px 15px;
+  
+}
+.input-container button{
+  width: 100%;
+  max-width: 120px;
+   padding: 15px 20px;
+   background-color: rgb(240, 112, 112);
+   color: white;
+   border-radius: 8px;
+}
+
+@media (max-width:600px){
+    .input-container{
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe-container {
+    padding: 20px 10px;
+}
+.subscribe-container h3{
+   font-size: 20px;
+
+}
+}

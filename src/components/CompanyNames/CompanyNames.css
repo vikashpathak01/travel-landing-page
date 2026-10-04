@@ -1,0 +1,30 @@
+.companyNames{
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+.company-picture-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.company-picture-container img{
+    width: 120px;
+   
+}
+
+@media (max-width:800px){
+    .company-picture-container{
+    grid-template-columns: repeat(3,1fr);
+    
+}
+}
+@media (max-width:500px){
+    .company-picture-container{
+    grid-template-columns: repeat(2,1fr);
+}
+}
