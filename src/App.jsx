@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router";
 import "./App.css";
-import Navbar from "./components/NavBar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import HeroContent from "./components/HeroContent/HeroContent";
 import Services from "./components/Services/Services";
 import Places from "./components/Places/Places";
 import BookTrip from "./components/BookTrip/BookTrip";
 import Testimonials from "./components/Testimonials/Testimonials";
 import CompanyNames from "./components/CompanyNames/CompanyNames";
-import Subscribe from "./components/subscribe/subscribe";
+import Subscribe from "./components/Subscribe/Subscribe";
 import Footer from "./components/Footer/Footer";
 
 function App() {
